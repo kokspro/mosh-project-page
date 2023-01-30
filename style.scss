@@ -4,3 +4,48 @@ $accentColor: #ff3400;
 $headingColor: #1b0760;
 $bodyColor: #918ca4;
 
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    color: $bodyColor;
+    line-height: 1.5;
+    font-size: 2.4rem;
+}
+
+h1, h2, h3 {
+    color: $headingColor;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 7rem;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+p {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    h3 {
+        font-size: 2.4rem;
+    }
+}
