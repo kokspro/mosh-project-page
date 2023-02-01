@@ -221,6 +221,7 @@ a {
   border-radius: 30px;
   border: 1px solid #ccc;
   color: #1b0760;
+  font-size: 2rem;
   outline: 0;
   padding: 1.5rem 3.5rem;
 }
@@ -238,6 +239,22 @@ a {
 ::placeholder {
   color: #cdcbd7;
   font-size: 1.8rem;
+}
+
+.input-group {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  display: flex;
+}
+
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1.5rem 1rem;
+}
+
+.input-group .btn {
+  margin: 4px;
 }
 
 @media screen and (min-width: 1024px) {
