@@ -230,3 +230,24 @@ a {
         font-size: 1.5rem;
     }
 }
+
+/*Inputs*/
+
+.input {
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    color: $headingColor;
+    outline: 0;
+    padding: 1.5rem 3.5rem;
+}
+
+::placeholder {
+    color: #cdcbd7;
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .input {
+        font-size: 1.5rem;
+    }
+}
