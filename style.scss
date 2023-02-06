@@ -758,3 +758,28 @@ a {
     max-width: 500px;
     margin: 0 auto;
 }
+
+/*Features*/
+
+.feature {
+    gap: 4rem 2rem;
+}
+
+article:first-of-type{
+    margin-top: 6rem;
+    background: black;
+}
+
+.feature__heading {
+    margin: 1rem 0;
+}
+
+.feature__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .feature:nth-of-type(even) .feature__content {
+        background: blue;
+    }
+}
